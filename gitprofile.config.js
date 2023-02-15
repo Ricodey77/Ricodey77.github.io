@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'Ricodey77', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,8 +11,8 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'shanthan-singh',
+//     twitter: 'arif_szn',
     mastodon: '',
     facebook: '',
     instagram: '',
@@ -23,11 +23,11 @@ const config = {
     stackoverflow: '', // format: userid/username
     website: 'https://arifszn.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'shanthanspidey777@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1tpEYHRb9MezK4RLTNx50rXz8FUR-LPok/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -44,21 +44,33 @@ const config = {
     'CSS',
     'Antd',
     'Tailwind',
+    'Bootstrap',
+    'Python',
+    'Machine Learning',
+    'Artificial Intelligence',
+    'Natural Language Processing',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Business Web Solutions',
+      position: 'Web Developer Intern',
+      from: 'January 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.businesswebsolutions.in/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'NULLCLASS',
+      position: 'Web Developer Intern',
+      from: 'Jan 2023',
+      to: 'Present',
+      companyLink: 'https://nullclass.com/',
+    },
+     {
+      company: 'Eduphoneix Solutions',
+      position: 'Web Developer Intern',
+      from: 'Jan 2023',
+      to: 'Present',
+      companyLink: 'https://eduphoenixsolutions.in/',
     },
   ],
   /* certifications: [
@@ -71,17 +83,17 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Indian Institution of Information Technology, Surat',
+      degree: 'B.Tech',
+      from: '2019',
+      to: '2023',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+//     {
+//       institution: 'Institution Name',
+//       degree: 'Degree',
+//       from: '2012',
+//       to: '2014',
+//     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
